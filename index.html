@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            transition: background-color 1s ease, background-image 1s ease;
+            background-size: 400% 400%;
+        }
+
+        .gradient-bg {
+            animation: gradientAnimation 10s ease infinite;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans gradient-bg">
+    <div class="max-w-4xl mx-auto py-10">
+        <h1 class="text-4xl font-bold text-center mb-6">My Playlist</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="song-card bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow" data-src="audio/denial-is-a-river.mp3" data-color="#ff6b6b">
+                <img src="c:\Users\niyos\OneDrive\Documents\Tech Tonic Africa\TTA_fortfolio_v1\Advanced-CSS\Advanced-CSS\BIO PAGE\class]\video lectures\tailwind\playlist\doechii.webp" alt="Denial is a River" class="w-full h-40 object-cover rounded-md object-top">
+                <div class="mt-3 text-center">
+                    <h2 class="text-xl font-semibold">Denial is a River</h2>
+                    <p class="text-gray-400">Doechii</p>
+                </div>
+                <button class="play-button bg-blue-500 hover:bg-blue-600 text-white p-2 rounded-full w-12 h-12 flex items-center justify-center mx-auto mt-3 transform transition hover:scale-110">▶</button>
+            </div>
+            <div class="song-card bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow" data-src="audio/sability.mp3" data-color="#f9a826">
+                <img src="c:\Users\niyos\OneDrive\Documents\Tech Tonic Africa\TTA_fortfolio_v1\Advanced-CSS\Advanced-CSS\BIO PAGE\class]\video lectures\tailwind\playlist\AYRA.webp" alt="Sability" class="w-full h-40 object-cover rounded-md">
+                <div class="mt-3 text-center" data-src="https://open.spotify.com/track/5V9XFfvCG4WP5ZdISOLvaF?si=SmKp02_wSR-xBUTdjldHSg">
+                    
+                    <h2 class="text-xl font-semibold">Sability</h2>
+                    <p class="text-gray-400">Ayra Starr</p>
+                </div>
+                <button class="play-button bg-blue-500 hover:bg-blue-600 text-white p-2 rounded-full w-12 h-12 flex items-center justify-center mx-auto mt-3 transform transition hover:scale-110">▶</button>
+            </div>
+            <div class="song-card bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow" data-src="audio/push-to-start.mp3" data-color="#8e44ad">
+                <img src="c:\Users\niyos\OneDrive\Documents\Tech Tonic Africa\TTA_fortfolio_v1\Advanced-CSS\Advanced-CSS\BIO PAGE\class]\video lectures\tailwind\playlist\tyla.jpg" alt="Push to Start" class="w-full h-200 object-cover rounded-md">
+                <div class="mt-3 text-center">
+                    <h2 class="text-xl font-semibold">Push to Start</h2>
+                    <p class="text-gray-400">Tyla</p>
+                </div>
+                <button class="play-button bg-blue-500 hover:bg-blue-600 text-white p-2 rounded-full w-12 h-12 flex items-center justify-center mx-auto mt-3 transform transition hover:scale-110">▶</button>
+            </div>
+            <div class="song-card bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow" data-src="audio/kill-bill.mp3" data-color="#ff4757">
+                <img src="c:\Users\niyos\OneDrive\Documents\Tech Tonic Africa\TTA_fortfolio_v1\Advanced-CSS\Advanced-CSS\BIO PAGE\class]\video lectures\tailwind\playlist\sza.avif" alt="Kill Bill" class="w-full h-40 object-cover rounded-md">
+                <div class="mt-3 text-center">
+                    <h2 class="text-xl font-semibold">Kill Bill</h2>
+                    <p class="text-gray-400">SZA</p>
+                </div>
+                <button class="play-button bg-blue-500 hover:bg-blue-600 text-white p-2 rounded-full w-12 h-12 flex items-center justify-center mx-auto mt-3 transform transition hover:scale-110">▶</button>
+            </div>
+            <div class="song-card bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow" data-src="audio/paint-the-town-red.mp3" data-color="#c0392b">
+                <img src="c:\Users\niyos\OneDrive\Documents\Tech Tonic Africa\TTA_fortfolio_v1\Advanced-CSS\Advanced-CSS\BIO PAGE\class]\video lectures\tailwind\playlist\doja-cat.jpg" alt="Paint the Town Red" class="w-full h-40 object-cover rounded-md">
+                <div class="mt-3 text-center">
+                    <h2 class="text-xl font-semibold">Paint the Town Red</h2>
+                    <p class="text-gray-400">Doja Cat</p>
+                </div>
+                <button class="play-button bg-blue-500 hover:bg-blue-600 text-white p-2 rounded-full w-12 h-12 flex items-center justify-center mx-auto mt-3 transform transition hover:scale-110">▶</button>
+            </div>
+            <div class="song-card bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow" data-src="audio/did-it-first.mp3" data-color="#1e90ff">
+                <img src="c:\Users\niyos\OneDrive\Documents\Tech Tonic Africa\TTA_fortfolio_v1\Advanced-CSS\Advanced-CSS\BIO PAGE\class]\video lectures\tailwind\playlist\ice spice.webp" alt="Did It First" class="w-full h-40 object-cover rounded-md">
+                <div class="mt-3 text-center">
+                    <h2 class="text-xl font-semibold">Did It First</h2>
+                    <p class="text-gray-400">Ice Spice</p>
+                </div>
+                <button class="play-button bg-blue-500 hover:bg-blue-600 text-white p-2 rounded-full w-12 h-12 flex items-center justify-center mx-auto mt-3 transform transition hover:scale-110">▶</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio Player -->
+    <audio id="audio-player" controls class="fixed bottom-5 left-1/2 transform -translate-x-1/2 bg-gray-800 p-3 rounded-lg shadow-lg w-96"></audio>
+
+    <script>
+        const audioPlayer = document.getElementById("audio-player");
+        const playButtons = document.querySelectorAll(".play-button");
+        const body = document.body;
+
+        playButtons.forEach(button => {
+            button.addEventListener("click", function () {
+                const songCard = this.closest(".song-card");
+                const songSrc = songCard.getAttribute("data-src");
+                const bgColor = songCard.getAttribute("data-color");
+
+                if (audioPlayer.src.includes(songSrc) && !audioPlayer.paused) {
+                    audioPlayer.pause();
+                    this.textContent = "▶";
+                } else {
+                    audioPlayer.src = songSrc;
+                    audioPlayer.play();
+                    playButtons.forEach(btn => btn.textContent = "▶");
+                    this.textContent = "⏸";
+                    body.style.backgroundColor = bgColor;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
